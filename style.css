@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+button {
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+button:hover {
+    background-color:cadetblue;
+}
+span {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.flex {
+    display: flex;
+}
+.jcenter {
+    justify-content: center;
+}
+.acenter {
+    align-items: center;
+}
+.jbetween {
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+.overlaymodal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #9d9c958e;
+    width: 100%;
+    height: 150%;
+    z-index: 10000;
+    transition: 1s;
+}
+.botones {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.galeria {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+.contain {
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10%;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #403b3499;
+    bottom: 180px;
+    transition: 0.5s;
+}
+.modal {
+    width: 50%;
+}
+.modal img {
+    width: 100%;
+}
+.contain:hover .overlay {
+    bottom: 0px;
+}
+.off {
+    display: none;
+}
